@@ -28,6 +28,13 @@
     "task-list-e2e": {
       "tags": [],
       "implicitDependencies": ["task-list"]
+    },
+    "reuse": {
+      "tags": []
+    },
+    "reuse-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reuse"]
     }
   }
 }

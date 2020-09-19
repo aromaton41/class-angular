@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="header">
+    <img src="../../assets/note-task.svg" alt="note-task" />
+    <h1>Task List</h1>
+  </div>
+  
+  <div class="tab-btn">
+    <app-tab-button
+      [labels]="fillterButtonType"
+      (fillter)="doFilter($event)"
+    ></app-tab-button>
+  </div>
+
+
+  <div class="task-add">
+    <app-task-add (newItem)="newTask($event)"></app-task-add>
+  </div>
+
+  <div class="task-item">
+    <app-task-item
+      *ngFor="let task of tasks"
+      [task]="task"
+      (onCheck)="updateTask($event)"
+    ></app-task-item>
+  </div>
+
+</div>

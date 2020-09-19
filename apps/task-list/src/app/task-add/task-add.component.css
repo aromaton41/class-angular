@@ -1,0 +1,48 @@
+/* div{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.addtask_label{
+    margin-right: 20px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+input{
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    border-radius: 2px;
+    background-color: rbga(F,F,F, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    height: 40px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.1);
+}
+input::placeholder{
+    opacity: 0.3;
+}
+button{
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 9px;
+    font-size: 1.4rem;
+    border-radius: 3%;
+    width: 100px;
+}
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.2);
+}
+button:active,
+button:focus{
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.2);
+} */

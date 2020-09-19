@@ -1,0 +1,5 @@
+<div>
+  <label class="addtask_label">Add Task:</label>
+  <input placeholder="Add Task..." type="text" #newTask (keyup.enter)="handlerAdd(newTask.value)" />
+  <button (click)="handlerAdd(newTask.value)">Add</button>
+</div>
