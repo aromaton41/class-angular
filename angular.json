@@ -279,5 +279,5 @@
       "unitTestRunner": "jest"
     }
   },
-  "defaultProject": "task-list"
+  "defaultProject": "reuse"
 }
